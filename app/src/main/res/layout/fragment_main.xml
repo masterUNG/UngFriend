@@ -46,6 +46,8 @@
 
         <!--Register-->
         <TextView
+            android:id="@+id/txtRegister"
+            android:clickable="true"
             android:layout_marginTop="10dp"
             android:textStyle="bold"
             android:textColor="@color/colorAccent"
