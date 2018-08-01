@@ -25,10 +25,12 @@
 
             <!--Photo-->
             <ImageView
+                android:scaleType="centerInside"
+                android:id="@+id/imvPhoto"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/photo"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="200dp" />
 
             <!--Name-->
             <EditText
