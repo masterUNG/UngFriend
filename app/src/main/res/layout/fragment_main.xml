@@ -20,6 +20,7 @@
 
         <!--User-->
         <EditText
+            android:id="@+id/edtUser"
             android:textSize="15sp"
             android:background="@drawable/user_field"
             android:inputType="text"
@@ -29,6 +30,7 @@
 
         <!--Password-->
         <EditText
+            android:id="@+id/edtPassword"
             android:textSize="15sp"
             android:background="@drawable/password_field"
             android:hint="Password :"
@@ -38,6 +40,7 @@
 
         <!--Login-->
         <Button
+            android:id="@+id/btnLogin"
             android:textColor="#ffffff"
             android:background="@drawable/button_ung"
             android:text="Login"
